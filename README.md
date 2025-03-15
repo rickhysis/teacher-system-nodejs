@@ -59,6 +59,7 @@ Build the database with migrations:
 ```sh
 npx sequelize-cli db:create  
 npx sequelize-cli db:migrate
+npx sequelize-cli db:seed:all
 ```
 
 ## Running Tests
